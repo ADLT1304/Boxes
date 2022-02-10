@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS DOCUMENT */
+
+/*Whole Page*/
+
+html, * {
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*First Boxes*/
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container {
+    margin: 20px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: lightgray;
+}
+
+.c1 {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    position: relative;
+    right: 25px;
+}
+
+.b1 {
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.c2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+}
+
+.b2 {
+    border: 12.5px solid black;
+    position: relative;
+    top: 50px;
+    left: 50px;  
+}
+
+.c3 {
+    height: 50px;
+    width: 150px;
+    background-color: gray;
+    position: absolute;
+    
+}
+
+.b3 {
+    left: 50px;
+
+    position: relative;
+}
+
+.c4 {
+    height: 100px;
+    width: 75px;
+    background-color: gray;
+    right: 12.5px;
+    position: relative;
+}
+
+.b4 {
+    border: 12.75px solid black;
+    position: relative;
+    top: 25px;
+    left: .1px;
+}
+
+.c5 {
+    height: 155px;
+    width: 50px;
+    background-color: gray;
+    position: relative;
+    bottom: 25px;
+    right: 50px;
+}
+
+.b5 {
+    border: 5px solid black;
+    position: relative;
+    top: 47.5px;
+}
+
+.c6 {
+    height: 120px;
+    width: 125px;
+    background-color: gray;
+    position: relative;
+    left: 12.5px;
+}
+
+.b6 {
+    border: 5px solid black;
+    position: relative;
+    top: 10px;
+    left: 55px;
+}
+
+.c7 {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    position: relative;
+    right: 25px;
+}
+
+.b7 {
+
+}
+
+.c8 {
+    height: 120px;
+    width: 125px;
+    background-color: gray;
+    position: relative;
+    left: 12.5px; 
+}
+
+.b8 {
+    border: 12.5px solid black;
+    position: relative;
+    top: 45px;
+    left: 50px;
+}
